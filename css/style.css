@@ -44,6 +44,7 @@ body,html{
     flex-flow: column wrap;
     align-items: center;
     text-align: center;
+    justify-content: center;
     padding: 15px;
 }
 #iconefoto{
@@ -54,19 +55,22 @@ body,html{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    justify-content: center;
 
     margin-top: 30px;
     padding: 10px;
-    width: 500px;
+    max-width: 500px;
 }
 #corpo>main>.coraçao{
     display: flex;
     flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
 .coraçao>section{
     background-color: rgba(255, 255, 255, 0.109);
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
 }
 .coraçao>section>img{
     margin: 40px;
@@ -77,7 +81,8 @@ body,html{
 }
 .sangue{
     display: flex;
-    flex-flow: row;
+    max-width: 900px;
+    flex-flow: row wrap;
 }
 
 
