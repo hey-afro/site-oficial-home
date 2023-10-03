@@ -7,7 +7,7 @@ body,html{
     background: url(../img/summonersrift.jpg) ;
     background-position: center top;
     background-size: contain 100vh;
-    background-attachment: scroll;
+    background-attachment: fixed;
     width: 100%;
     height: 100%;
     margin: 0%;
@@ -19,7 +19,7 @@ p{
 /* Parte inicial o cabeçalho */
 #corpo>header{
     display: flex;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.573);
     color: white;
 
     align-items: center;
@@ -87,7 +87,7 @@ p{
 }
 
 .veias{
-    background-color: rgba(19, 58, 148, 0.582);
+    background-color: rgba(19, 34, 69, 0.582);
     display: flex;
     flex-flow: column;
     margin: 10px;
@@ -98,10 +98,16 @@ p{
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-
     padding: 13px;
 }
-
+article{
+    margin: 5px;
+}
+#tamimg{
+    min-width: 200px;
+    max-width: 350px; 
+    height: 200px;
+}
 
 
 #corpo>footer{
